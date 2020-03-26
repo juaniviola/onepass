@@ -2,9 +2,10 @@
   "name": "cli",
   "version": "1.0.0",
   "description": "",
-  "bin": "index.js",
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "onepasscli": "index.js"
+  },
+  "main": "index.js",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^4.0.1",
